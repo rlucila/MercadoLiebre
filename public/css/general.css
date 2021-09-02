@@ -1,0 +1,17 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #ebebeb;
+}
+
+:root {
+  --Amarillo: #eac926;
+  --Azul: #03264c;
+  --Celeste: #1259c3;
+  --Gris-Oscuro: #666;
+  --Gris-Claro: #ebebeb;
+  --Verde: #39b54a;
+}

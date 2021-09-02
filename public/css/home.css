@@ -1,0 +1,72 @@
+main{
+    background-color: var(--Gris-Claro);
+    width: 90%;
+}
+
+/* Basado en tu ultima visita Oferta */
+main section h3 {
+    font-size: 24px;
+    color:var(--Gris-Oscuro);
+}
+
+/* Productos */
+main section article{
+    margin: 0 auto;
+}
+
+
+main section article img{
+    width: 100%;
+}
+
+/* Envio Precio Descuento */
+main section article .data{
+    border-top: 1px solid var(--Gris-Oscuro);
+    margin: 0px 15px;
+    position: relative;
+}
+
+/* Envio */
+main section article .data i{
+ color: var(--Verde);
+ border: 1px solid var(--Verde);
+ border-radius: 50%;
+ font-size: 16px;
+ display: block;
+ padding: 5px;
+ width: 30px;
+ height: 30px;
+ position: absolute;
+ right: 20px;
+ top: -15px;
+ background-color: #FFF;
+}
+
+/* Precio */
+main section article .data .precio{
+    font-size: 18px;
+}
+
+/* Descuento */
+main section article .data .descuento{
+    font-size: 16px;
+    color: var(--Verde);
+}
+
+/* Nombre del producto */
+main section article .data h4{
+    font-size: 16px;
+    color:var(--Gris-Oscuro);
+    display: none;
+}
+
+@media (min-width: 768px) {
+    /* Nombre del producto */
+    main section article .data h4{
+        display: block;
+    }
+  }
+  
+  /* Escritorio */
+  @media (min-width: 1024px) {
+  }

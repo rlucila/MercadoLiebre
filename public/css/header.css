@@ -1,0 +1,71 @@
+header {
+  background-color: #eac926;
+  width: 100%;
+  padding: 10px 5px;
+}
+
+header .logo {
+    width: 180px;
+
+}
+/* Barra de busqueda */
+.barra-de-busqueda i {
+  font-style: inherit;
+  background-color: #ffffff;
+  color: #666;
+  border: 1px solid #666;
+}
+
+/* Compra en cuotas... */
+.compra {
+  text-align: center;
+  padding: 5px 0;
+}
+
+/* Barra de navegacion */
+
+header nav {
+  display: none;
+}
+header nav ul {
+  padding: 0px;
+}
+
+header nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Boton de hamburguesa */
+ header .burger-menu {
+  color: #ffffff;
+  background-color: #1259c3;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+header .burger-menu i{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  /* Barra de navegacion */
+  header nav {
+    display: block;
+  }
+
+  /* Boton de hamburguesa */
+  .burger-menu {
+    display: none;
+  }
+}
+
+/* Escritorio */
+@media (min-width: 1024px) {
+}
