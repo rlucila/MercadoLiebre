@@ -1,0 +1,31 @@
+main .contenedor{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+
+main .contenedor .container-input{
+    display: flex;
+    margin: 15px 0;
+
+}
+
+main .contenedor .container-input input {
+    padding: 10px;
+    /* border: none; */
+    border-radius: 5px;
+    width: 100%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 7px;
+    margin: 20px 0;
+    height: 30px;
+}
+
+.buttons .btn-submit{
+    background-color: var(--Celeste) ;
+}
