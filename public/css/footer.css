@@ -1,24 +1,40 @@
-footer{
-    background-color: white;
+footer {
+  background-color: white;
 }
 
+
+/* Iconos */
 footer div i {
-    color: #1259c3;
-    font-size: 30px ;
-    }
-    footer div {
-        text-align: center;
-    }
-    footer div h3{
-        color: #666;
-        font-size: 24px;
-    }
+  color: #1259c3;
+  font-size: 30px;
+  padding: 20px;
+}
+
+/* texto */
+footer div {
+  text-align: center;
+  padding: 0px 10px;
+  margin: 20px auto;
+}
+/* titulos */
+footer div h3 {
+  color: #666;
+  font-size: 22px;
+  margin: 0px;
+}
+
+footer div p {
+  color: #666;
+  font-size: 16px;
+  margin: 0;
+}
+
+#copyright {
     
-    footer div p{
-        color:#666; 
-        font-size: 16px;
-    }
-    
-    #copyright{
-        text-align: left;
-    }
+  text-align: left;
+  margin: 20px auto 0px;
+}
+
+#copyright p{
+  font-size: 14px;  
+}

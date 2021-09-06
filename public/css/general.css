@@ -1,4 +1,4 @@
-* {
+.home, .register-login{
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   margin: 0px;
@@ -6,6 +6,7 @@
   box-sizing: border-box;
   background-color: #ebebeb;
 }
+
 
 :root {
   --Amarillo: #eac926;

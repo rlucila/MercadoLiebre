@@ -1,10 +1,10 @@
-header {
+  header {
   background-color: #eac926;
   width: 100%;
   padding: 10px 5px;
 }
 
-header .logo {
+ header .logo {
     width: 180px;
 
 }
@@ -24,20 +24,20 @@ header .logo {
 
 /* Barra de navegacion */
 
-header nav {
+ header nav {
   display: none;
 }
-header nav ul {
+ header nav ul {
   padding: 0px;
 }
 
-header nav ul li a {
+ header nav ul li a {
   color: #000;
   text-decoration: none;
 }
 
 /* Boton de hamburguesa */
- header .burger-menu {
+  header .burger-menu {
   color: #ffffff;
   background-color: #1259c3;
   width: 24px;
@@ -47,7 +47,7 @@ header nav ul li a {
   border-radius: 3px;
 }
 
-header .burger-menu i{
+ header .burger-menu i{
     font-size: 13px;
     text-align: center;
     padding-top: 5px;
@@ -56,12 +56,12 @@ header .burger-menu i{
 /* Tablet */
 @media (min-width: 768px) {
   /* Barra de navegacion */
-  header nav {
+   header nav {
     display: block;
   }
 
   /* Boton de hamburguesa */
-  .burger-menu {
+    .burger-menu {
     display: none;
   }
 }

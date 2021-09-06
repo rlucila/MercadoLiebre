@@ -1,17 +1,17 @@
-main .contenedor{
+main .container-form{
     width: 90%;
     margin: 0 auto;
     max-width: 375px;
 }
 
 
-main .contenedor .container-input{
+main .container-form .container-input{
     display: flex;
     margin: 15px 0;
 
 }
 
-main .contenedor .container-input input {
+main .container-form .container-input input {
     padding: 10px;
     /* border: none; */
     border-radius: 5px;

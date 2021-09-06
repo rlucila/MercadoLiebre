@@ -1,17 +1,29 @@
 main{
     background-color: var(--Gris-Claro);
+}
+
+/* banner */
+main .banner{
+    width: 100%;
+}
+main .banner img{
+    width: 100%;
+}
+
+main .container-product{
     width: 90%;
+    margin: 0 auto;
 }
 
 /* Basado en tu ultima visita Oferta */
-main section h3 {
-    font-size: 24px;
+main .container-product h3{
+    font-size: 23px;
     color:var(--Gris-Oscuro);
 }
 
 /* Productos */
 main section article{
-    margin: 0 auto;
+    background-color: white;
 }
 
 
@@ -21,7 +33,7 @@ main section article img{
 
 /* Envio Precio Descuento */
 main section article .data{
-    border-top: 1px solid var(--Gris-Oscuro);
+    border-top: 1px solid var(--Gris-Claro);
     margin: 0px 15px;
     position: relative;
 }
@@ -42,6 +54,7 @@ main section article .data i{
  background-color: #FFF;
 }
 
+
 /* Precio */
 main section article .data .precio{
     font-size: 18px;
@@ -51,6 +64,7 @@ main section article .data .precio{
 main section article .data .descuento{
     font-size: 16px;
     color: var(--Verde);
+    padding-bottom: 5px;
 }
 
 /* Nombre del producto */
@@ -64,6 +78,10 @@ main section article .data h4{
     /* Nombre del producto */
     main section article .data h4{
         display: block;
+    }
+
+    .container-product section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
   }
   
