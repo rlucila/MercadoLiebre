@@ -35,6 +35,11 @@ main section article {
   margin: 13px 0px;
 }
 
+/* main section article:hover {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+} */
+
 main section article img {
   width: 100%;
 }
@@ -53,15 +58,21 @@ main section article .data i {
   margin: 0px auto;
   display: block;
   font-size: 16px;
-  padding: 12px 5px 0px 4px;
-  width: 30px;
-  height: 30px;
+  padding: 5px 5px 0px 5px;
+  width: 21px;
+  height: 21px;
   border: 1px solid var(--Verde);
   background-color: #fff;
   border-radius: 50%;
   position: absolute;
   right: 20px;
   top: -15px;
+  transition: all ease .6s;
+}
+
+main section article:hover .data i {
+  box-shadow: 0 0 5px var(--Verde);
+  transform: rotate(360deg);
 }
 
 /* Precio Descuento  */
@@ -87,19 +98,32 @@ main section article .data .descuento {
 main section article .data h4 {
   font-size: 16px;
   color: var(--Gris-Oscuro);
-  display: none;
+  height: 0;
+  transition: all ease .3s;
+  overflow: hidden;
 }
 
+main section article:hover .data h4 {
+  height: 20px;
+  margin-top: 10px;
+}
 @media (min-width: 768px) {
+  main section article {
+    transition: all ease .4s;
+  }
+
+  main section article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  
+  }
+
   /* Nombre del producto */
   main section article .data h4 {
     display: block;
-    padding: 15px 0px 20px;
     margin: 0px;
   }
 
   .container-product section article {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
     width: 45%;
   }
 

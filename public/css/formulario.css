@@ -47,12 +47,21 @@ main .container-form .container-input input {
     color: white;
     background-color: var(--Celeste) ;
     border-radius: 7px;
+    transition: all linear .3s;
+}
+.buttons .btn-submit:hover{
+    background-color:  var(--Azul);
 }
 .buttons .btn-reset{
     border: none;
     color: white;
     background-color: red ;
     border-radius: 7px;
+    transition: all linear .3s;
+}
+
+.buttons .btn-reset:hover{
+    background-color:#CF0000
 }
 
 .buttons .btn-enviar{
@@ -62,6 +71,12 @@ main .container-form .container-input input {
     width: 100%;
     border-radius: 7px;
     height: 34px;
+    transition: all linear .3s;
+
+}
+
+.buttons .btn-enviar:hover{
+    background-color:  var(--Azul);
 }
 
 @media (min-width: 768px) {

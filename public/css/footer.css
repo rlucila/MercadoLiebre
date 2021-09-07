@@ -8,6 +8,10 @@ footer div i {
   color: #1259c3;
   font-size: 30px;
   padding: 20px;
+  transition: all ease .5s;
+}
+footer div i:hover {
+    color: #0022AA;
 }
 
 /* texto */
@@ -37,4 +41,17 @@ footer div p {
 
 #copyright p{
   font-size: 14px;  
+}
+
+@media (min-width: 768px) {
+  footer .container-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
+  }
+  footer div{
+    width: 100%;
+  }
+
 }

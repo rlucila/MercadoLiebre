@@ -20,13 +20,31 @@ header .logo-search{
   width: 48%;
 }
 
+.barra-de-busqueda form{
+  display: flex;
+  justify-content: center;
+}
+
 .barra-de-busqueda .search{
-  font-style: inherit;
   background-color: #ffffff;
   color: var(--Gris-Oscuro);
-  border: 1px solid var(--Gris-Oscuro);
   width: 74%;
+  text-align: center;
+  border-radius: 12px 0 0 12px;
+  border: none;
+
 }
+
+.barra-de-busqueda .btn-search{
+  background-color: #ffffff;
+  color: var(--Gris-Oscuro);
+  width: 26%;
+  text-align: center;
+  border-radius:  0  12px  12px  0;
+  height: 30px;
+  border: none;
+}
+
 
 /* Compra en cuotas... */
 .compra {
@@ -95,6 +113,9 @@ header .logo-search{
   }
   .barra-de-busqueda{
     width:   32%;
+  }
+  .barra-de-busqueda .btn-search{
+    width: 14%;
   }
 
   .compra {
