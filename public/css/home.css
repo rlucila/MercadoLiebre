@@ -1,90 +1,122 @@
-main{
-    background-color: var(--Gris-Claro);
+main {
+  background-color: var(--Gris-Claro);
 }
 
 /* banner */
-main .banner{
-    width: 100%;
+main .banner {
+  width: 100%;
 }
-main .banner img{
-    width: 100%;
+main .banner img {
+  width: 100%;
 }
 
-main .container-product{
-    width: 90%;
-    margin: 0 auto;
+main .container-product {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /* Basado en tu ultima visita Oferta */
-main .container-product h3{
-    font-size: 23px;
-    color:var(--Gris-Oscuro);
+main .container-product h3 {
+  font-size: 23px;
+  color: var(--Gris-Oscuro);
+  width: 100%;
+  margin: 23px 0px 10px;
 }
 
 /* Productos */
-main section article{
-    background-color: white;
+main section article {
+  background-color: white;
+  margin: 13px 0px;
 }
 
-
-main section article img{
-    width: 100%;
+main section article img {
+  width: 100%;
 }
 
 /* Envio Precio Descuento */
-main section article .data{
-    border-top: 1px solid var(--Gris-Claro);
-    margin: 0px 15px;
-    position: relative;
+main section article .data {
+  border-top: 1px solid var(--Gris-Claro);
+  margin: 0px 15px;
+  position: relative;
 }
 
 /* Envio */
-main section article .data i{
- color: var(--Verde);
- border: 1px solid var(--Verde);
- border-radius: 50%;
- font-size: 16px;
- display: block;
- padding: 5px;
- width: 30px;
- height: 30px;
- position: absolute;
- right: 20px;
- top: -15px;
- background-color: #FFF;
+main section article .data i {
+  color: var(--Verde);
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+  font-size: 16px;
+  padding: 12px 5px 0px 4px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--Verde);
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
 }
 
+/* Precio Descuento  */
+.container-product .precio-descuento {
+  display: flex;
+}
 
 /* Precio */
-main section article .data .precio{
-    font-size: 18px;
+main section article .data .precio {
+  font-size: 18px;
+  width: 30%;
 }
 
 /* Descuento */
-main section article .data .descuento{
-    font-size: 16px;
-    color: var(--Verde);
-    padding-bottom: 5px;
+main section article .data .descuento {
+  font-size: 16px;
+  color: var(--Verde);
+  width: 70%;
+  margin: auto 10px;
 }
 
 /* Nombre del producto */
-main section article .data h4{
-    font-size: 16px;
-    color:var(--Gris-Oscuro);
-    display: none;
+main section article .data h4 {
+  font-size: 16px;
+  color: var(--Gris-Oscuro);
+  display: none;
 }
 
 @media (min-width: 768px) {
-    /* Nombre del producto */
-    main section article .data h4{
-        display: block;
-    }
+  /* Nombre del producto */
+  main section article .data h4 {
+    display: block;
+    padding: 15px 0px 20px;
+    margin: 0px;
+  }
 
-    .container-product section article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
+  .container-product section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 45%;
   }
-  
-  /* Escritorio */
-  @media (min-width: 1024px) {
+
+  main section article .data .descuento {
+    width: 700%;
   }
+
+  /* Basado en tu ultima visita Oferta */
+  main .container-product h3 {
+    font-size: 24px;
+  }
+}
+
+/* Escritorio */
+@media (min-width: 1024px) {
+    .container-product section article {
+        width: 23%;
+      }
+
+}
