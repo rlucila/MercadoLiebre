@@ -4,18 +4,34 @@ main .container-form{
     max-width: 375px;
 }
 
-
-main .container-form .container-input{
+main .container-form form{
     display: flex;
+    flex-direction: column;
+}
+main .container-form .container-input{
     margin: 15px 0;
 
 }
 
 main .container-form .container-input input {
     padding: 10px;
-    /* border: none; */
+    border: none;
     border-radius: 5px;
-    width: 100%;
+    width: 93%;
+}
+
+.container-form .container-input .perfil{
+    display: flex;
+}
+.container-form .container-input .intereses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-form .container-input .intereses input{
+    width: 45%;
 }
 
 .buttons{
@@ -27,5 +43,30 @@ main .container-form .container-input input {
 }
 
 .buttons .btn-submit{
+    border: none;
+    color: white;
     background-color: var(--Celeste) ;
+    border-radius: 7px;
+}
+.buttons .btn-reset{
+    border: none;
+    color: white;
+    background-color: red ;
+    border-radius: 7px;
+}
+
+.buttons .btn-enviar{
+    border: none;
+    color: white;
+    background-color: var(--Celeste) ;
+    width: 100%;
+    border-radius: 7px;
+    height: 34px;
+}
+
+@media (min-width: 768px) {
+    main .container-form .container-input input {
+        width: 95%;
+    }
+    
 }

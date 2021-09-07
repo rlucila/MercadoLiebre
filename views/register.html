@@ -19,19 +19,25 @@
 </head>
 <body class="register-login">
     <header>
+      <div class="logo-search">
         <div class="logo"><a href="/home"><img src="images/logo-mercado-liebre.svg" alt="" /></a></div>
         <div class="barra-de-busqueda">
-          <i>Buscar productos, marcas</i>
-          <i class="fas fa-search"></i>
+          <form action="">
+          <input class="search" type="text" placeholder="Buscar productos, marcas">
+          <button class="btn-search"><i class="fas fa-search"></i></button> 
+        </form>
         </div>
+      
         <div class="compra">
           <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div> 
         </div>
         <nav>
           <ul class="site" type="none">
             <li><a href="">Ofertas</a></li>
             <li><a href="">Tiendas Oficiales</a></li>
             <li><a href="">Vender</a></li>
+            <li><a href="">Ayuda</a></li>
           </ul>
           <ul class="login" type="none">
             <li>
@@ -77,18 +83,22 @@
                 </div>
                 <!-- Perfil de usuario -->
                 <div class="container-input">
-                    <h4>Perfil de usuario</h4>
+                    <h4>Perfil de usuario</h4> 
+                    <div class="perfil">
                     <input type="radio" name="perfil" value="" id="comprador"><label for="comprador">Comprador</label>
                     <input type="radio" name="perfil" value="" id="vendedor"><label for="vendedor">Vendedor</label>
+                  </div>
                 </div>
                 <!-- Intereses -->
                 <div class="container-input">
-                    <h4>Intereses</h4>
+                  <h4>Intereses</h4>
+                  <div class="intereses">
                     <input type="checkbox" name="intereses" value="electro" id="electro"><label for="electro">Electro</label>
                     <input type="checkbox" name="intereses" value="moda" id="moda"><label for="moda">Moda</label>
                     <input type="checkbox" name="intereses" value="hogar" id="hogar"><label for="hogar">Hogar</label>
                     <input type="checkbox" name="intereses" value="jugueteria" id="jugueteria"><label for="jugueteria">Jugueteria</label>
                     <input type="checkbox" name="intereses" value="vida-sana" id="vida-sana"><label for="vida-sana">Vida Sana</label>
+                  </div>
                 </div>
                 <!-- Foto de perfil -->
                 <div class="container-input">

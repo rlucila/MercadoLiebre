@@ -20,7 +20,7 @@ header .logo-search{
   width: 48%;
 }
 
-.barra-de-busqueda input{
+.barra-de-busqueda .search{
   font-style: inherit;
   background-color: #ffffff;
   color: var(--Gris-Oscuro);
